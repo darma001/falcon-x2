@@ -1,0 +1,86 @@
+/* HERO MODERN */
+.hero-modern {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 60px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hero-left {
+    max-width: 550px;
+}
+
+.hero-left h1 {
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+.hero-left span {
+    color: #60a5fa;
+}
+
+.hero-left p {
+    margin-top: 20px;
+    color: #cbd5f5;
+    line-height: 1.6;
+}
+
+.hero-buttons {
+    margin-top: 30px;
+}
+
+.secondary-btn {
+    padding: 14px 30px;
+    border-radius: 30px;
+    border: 1px solid #60a5fa;
+    background: transparent;
+    color: #60a5fa;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+/* HERO CARD */
+.hero-right {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-card {
+    background: rgba(15, 23, 42, 0.95);
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(148,163,184,0.2);
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    width: 260px;
+}
+
+/* TRUST SECTION */
+.trusted {
+    text-align: center;
+    padding: 40px 20px;
+    color: #94a3b8;
+}
+
+.logos span {
+    margin: 0 20px;
+    font-size: 14px;
+    color: #cbd5f5;
+}
+
+/* FEATURES MODERN */
+.features-modern {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px;
+    flex-wrap: wrap;
+}
+
+/* NAVBAR ENHANCE */
+.login-link {
+    border: 1px solid #60a5fa;
+    padding: 6px 14px;
+    border-radius: 20px;
+}
